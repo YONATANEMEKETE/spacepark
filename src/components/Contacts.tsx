@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactCard from './ContactCard';
-import contacts from '../Data/data';
+import { contacts } from '../Data/data';
 
 const Contacts = () => {
   return (
