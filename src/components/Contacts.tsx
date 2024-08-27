@@ -19,6 +19,7 @@ const Contacts = () => {
       <div className="py-5 px-4 bg-white rounded-xl shadow-xl space-y-2">
         {contacts.map((contact) => (
           <ContactCard
+            key={contact.name}
             name={contact.name}
             image={contact.image}
             number={contact.number}
