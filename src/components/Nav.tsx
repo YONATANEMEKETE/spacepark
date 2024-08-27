@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Nav = () => {
   return (
-    <Wrapper className="sticky top-2 flex items-center justify-between h-[4rem] bg-mynavbg mt-2 rounded-t-xl px-4">
+    <Wrapper className="sticky z-40 top-2 flex items-center justify-between h-[4rem] bg-mynavbg  rounded-t-xl px-4">
       <div className="flex items-center gap-2 cursor-pointer">
         <div className="size-10 rounded-lg bg-mybg grid place-content-center">
           <BsFillChatSquareHeartFill size={24} className="text-myaccent " />
@@ -22,7 +22,7 @@ const Nav = () => {
         <Input
           type="text"
           placeholder="Search"
-          className="text-base text-mytext font-semibold font-first"
+          className="text-base text-mytext font-semibold font-first bg-mybg"
         />
         <Button
           variant={'default'}
