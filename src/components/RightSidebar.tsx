@@ -1,9 +1,12 @@
 import React from 'react';
+import Request from './Request';
+import Contacts from './Contacts';
 
 const RightSidebar = () => {
   return (
-    <div className="basis-[24%] h-full border-2">
-      <div></div>
+    <div className="basis-[24%] h-full space-y-4">
+      <Request />
+      <Contacts />
     </div>
   );
 };
