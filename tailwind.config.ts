@@ -20,6 +20,7 @@ const config = {
     extend: {
       fontFamily: {
         first: ['var(--font-inter)'],
+        second: ['var(--font-poppins)'],
       },
       colors: {
         mybg: 'hsl(var(--mybg))',

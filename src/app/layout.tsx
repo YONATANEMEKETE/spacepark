@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 
@@ -7,6 +7,12 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800', '900'],
   variable: '--font-inter',
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins',
 });
 
 export const metadata: Metadata = {
@@ -21,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={cn('antialiased bg-mybg', inter.variable)}>
+      <body
+        className={cn('antialiased bg-mybg', inter.variable, poppins.variable)}
+      >
         {children}
       </body>
     </html>
