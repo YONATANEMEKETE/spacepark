@@ -6,7 +6,7 @@ import RightSidebar from './RightSidebar';
 
 const Main = () => {
   return (
-    <Wrapper className="bg-mybg min-h-[90vh] h-screen pt-4  pb-2  flex items-start gap-x-6">
+    <Wrapper className="bg-mybg min-h-[90vh] h-max pt-4   pb-20  flex items-start gap-x-6">
       <LeftSidebar />
       <Feed />
       <RightSidebar />

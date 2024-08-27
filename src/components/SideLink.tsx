@@ -16,7 +16,7 @@ const SideLink = ({ text, number, grey, active, Icon }: Props) => {
     <div
       className={`${
         active && 'bg-mybg border-l-2 border-myaccent'
-      } -full mx-auto pt-4  cursor-pointer space-y-4`}
+      } -full mx-auto pt-4  cursor-pointer space-y-4 hover:bg-mybg/60`}
     >
       <div className="w-[80%] mx-auto flex items-center justify-between">
         <div className="flex items-center gap-4">
