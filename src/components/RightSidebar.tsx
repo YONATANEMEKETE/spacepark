@@ -4,7 +4,7 @@ import Contacts from './Contacts';
 
 const RightSidebar = () => {
   return (
-    <div className="basis-[24%] h-full space-y-4">
+    <div className="basis-[24%] h-full space-y-5">
       <Request />
       <Contacts />
     </div>
