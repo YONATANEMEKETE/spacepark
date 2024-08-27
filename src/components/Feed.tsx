@@ -1,9 +1,10 @@
 import React from 'react';
+import Stories from './Stories';
 
 const Feed = () => {
   return (
-    <div className="basis-[48%] h-full border-2">
-      <div></div>
+    <div className="basis-[48%] h-full space-y-6">
+      <Stories />
     </div>
   );
 };
