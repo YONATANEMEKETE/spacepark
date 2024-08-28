@@ -8,7 +8,7 @@ interface Props {
 const PostImage = ({ images }: Props) => {
   if (images.length !== 0 && images.length === 1) {
     return (
-      <div className="h-[400px] min-h-[300px] rounded-xl relative">
+      <div className="h-[300px] min-[450px]:h-[400px] min-h-[300px] rounded-xl relative">
         <Image
           src={images[0]}
           alt="post"
@@ -21,7 +21,7 @@ const PostImage = ({ images }: Props) => {
 
   if (images.length !== 0 && images.length === 2) {
     return (
-      <div className="h-[400px] min-h-[300px] rounded-xl flex justify-between">
+      <div className="h-[300px] min-[450px]:h-[400px] min-h-[300px] rounded-xl flex justify-between">
         <div className="basis-[48%] relative h-full  rounded-xl">
           <Image
             src={images[0]}
@@ -44,7 +44,7 @@ const PostImage = ({ images }: Props) => {
 
   if (images.length !== 0 && images.length === 3) {
     return (
-      <div className="h-[400px] minh-h-[300px] rounded-xl flex justify-between">
+      <div className="h-[300px] min-[450px]:h-[400px] min-h-h-[300px] rounded-xl flex justify-between">
         <div className="basis-[48%] relative h-full  rounded-xl">
           <Image
             src={images[0]}

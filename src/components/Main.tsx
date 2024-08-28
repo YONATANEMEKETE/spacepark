@@ -7,7 +7,7 @@ import Invitation from './Invitation';
 
 const Main = () => {
   return (
-    <Wrapper className="bg-mybg min-h-[90vh] h-max pt-4  pb-20  flex items-start gap-x-6 ">
+    <Wrapper className="bg-mybg min-h-[90vh] h-max pt-4  pb-20  flex items-start gap-x-6 mx-1 min-[450px]:mx-4 min-[1200px]:mx-auto ">
       <LeftSidebar />
       <Feed />
       <RightSidebar />

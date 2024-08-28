@@ -15,7 +15,7 @@ const StoryCard = ({ name, image, story, variant }: Props) => {
         style={{
           backgroundImage: `url('${story}')`,
         }}
-        className="w-[19%] h-[200px]  rounded-xl bg-cover px-2 py-4 cursor-pointer flex flex-col gap-3 justify-end items-center shadow-2xl"
+        className="w-[19%] h-[150px] min-[450px]:h-[200px]  rounded-xl bg-cover px-2 py-4 cursor-pointer flex flex-col gap-3 justify-end items-center shadow-2xl"
       >
         <div className="size-8 rounded-md bg-white grid place-content-center ring-2 ring-white ring-offset-2 ring-offset-black">
           <Plus className="text-myaccent" />
@@ -31,7 +31,7 @@ const StoryCard = ({ name, image, story, variant }: Props) => {
       style={{
         backgroundImage: `url('${story}')`,
       }}
-      className="w-[19%] h-[200px]  rounded-xl bg-cover px-2 py-4 cursor-pointer flex flex-col justify-between items-center shadow-2xl"
+      className="w-[19%] h-[150px] min-[450px]:h-[200px]  rounded-xl bg-cover px-2 py-4 cursor-pointer flex flex-col justify-between items-center shadow-2xl"
     >
       <div
         style={{ backgroundImage: `url('${image}')` }}

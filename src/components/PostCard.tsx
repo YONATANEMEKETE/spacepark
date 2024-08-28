@@ -55,7 +55,7 @@ const PostCard = ({ post }: Props) => {
 
       <div className="h-[1px] bg-mytextgray/30"></div>
 
-      <div className="flex items-center justify-between px-2">
+      <div className="flex items-center flex-wrap gap-2 justify-between px-2">
         <div className="flex items-center gap-x-2 cursor-pointer">
           <MessageSquare className="text-mytextgray" />
           <p className="text-sm text-mytextgray font-first font-semibold">
