@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProfileCard = () => {
   return (
-    <div className="w-full bg-white px-6 py-6 flex items-center gap-2 rounded-xl">
+    <div className="w-full bg-white px-6 py-6 flex items-center gap-2 rounded-xl ">
       <div className="relative size-12 rounded-xl overflow-clip cursor-pointer">
         <Image
           src={'https://ik.imagekit.io/6qizpphtd1/SPACEPARK/9.jpg'}

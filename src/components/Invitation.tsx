@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Invitation = () => {
   return (
-    <div className="space-y-3 pt-4">
+    <div className="space-y-3 pt-4 sticky top-16">
       <div className="flex items-center justify-between px-4">
         <p className="text-base text-mytextgray font-first font-semibold">
           INVITATION

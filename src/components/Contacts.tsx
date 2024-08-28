@@ -4,7 +4,7 @@ import { contacts } from '../Data/data';
 
 const Contacts = () => {
   return (
-    <div className="space-y-3">
+    <div className="sticky top-16 space-y-3 pt-4">
       <div className="px-4 flex items-center justify-between">
         <p className="text-base text-mytextgray font-first font-semibold">
           Contacts
