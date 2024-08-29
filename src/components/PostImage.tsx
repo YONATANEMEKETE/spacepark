@@ -13,6 +13,8 @@ const PostImage = ({ images }: Props) => {
           src={images[0]}
           alt="post"
           fill
+          placeholder="blur"
+          blurDataURL={images[0]}
           className="object-cover rounded-xl"
         />
       </div>
@@ -27,6 +29,8 @@ const PostImage = ({ images }: Props) => {
             src={images[0]}
             alt="post"
             fill
+            placeholder="blur"
+            blurDataURL={images[0]}
             className="object-cover rounded-xl"
           />
         </div>
@@ -35,6 +39,8 @@ const PostImage = ({ images }: Props) => {
             src={images[1]}
             alt="post"
             fill
+            placeholder="blur"
+            blurDataURL={images[1]}
             className="object-cover rounded-xl"
           />
         </div>
@@ -50,6 +56,8 @@ const PostImage = ({ images }: Props) => {
             src={images[0]}
             alt="post"
             fill
+            placeholder="blur"
+            blurDataURL={images[0]}
             className="object-cover rounded-xl"
           />
         </div>
@@ -59,6 +67,8 @@ const PostImage = ({ images }: Props) => {
               src={images[1]}
               alt="post"
               fill
+              placeholder="blur"
+              blurDataURL={images[1]}
               className="object-cover rounded-xl"
             />
           </div>
@@ -67,6 +77,8 @@ const PostImage = ({ images }: Props) => {
               src={images[2]}
               alt="post"
               fill
+              placeholder="blur"
+              blurDataURL={images[2]}
               className="object-cover rounded-xl"
             />
           </div>
